@@ -58,7 +58,7 @@ export class SpotifyComponent implements OnInit {
       let client_id = '9231b9552fe24c8d94e2f5ed995bac83';
       /* URL du site pour la redirection après connexion (lien à encoder via le site ci-dessous) :
       https://www.url-encode-decode.com/ */
-      let redirect_uri = 'https%3A%2F%2Fjulienmah.github.io%2FSave1%2F';
+      let redirect_uri = 'https%3A%2F%2Fjulienmah.github.io%2FAniMusic%2F';
       const redirect = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}`;
       if(accessToken == null || accessToken == "" || accessToken == undefined){
         window.location.replace(redirect);
